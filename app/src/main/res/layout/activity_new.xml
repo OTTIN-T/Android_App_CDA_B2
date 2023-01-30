@@ -4,17 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".NewActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#206021">
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
- />
-    <Button
-        android:id="@+id/start_new_activity_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="My super page"
-/>
+        android:layout_height="match_parent"
+        android:text="Ma super app" />
+
 </LinearLayout>
