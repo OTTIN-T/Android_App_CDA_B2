@@ -15,6 +15,9 @@
             android:name=".NewActivity"
             android:exported="false" />
         <activity
+            android:name=".ProfileDetails"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

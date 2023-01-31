@@ -4,17 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
- />
+    />
     <Button
         android:id="@+id/start_new_activity_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My super page"
-/>
+        android:text="INTENT"
+    />
+    <Button
+        android:id="@+id/start_profile_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARCELABLE => Profile"
+        />\
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="BTN DP"
+        android:textSize="20dp"
+        android:textColor="#5C9C40"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="BTN SP"
+        android:textSize="20sp"
+        android:textColor="#5C9C40"
+        />
+
+    <Button
+        android:layout_width="400px"
+        android:layout_height="150px"
+        android:text="BTN PX"
+        android:textSize="20px"
+        android:textColor="#5C9C40"
+        />
 </LinearLayout>
