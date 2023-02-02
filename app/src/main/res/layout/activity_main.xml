@@ -42,11 +42,4 @@
         android:textColor="#5C9C40"
         />
 
-    <Button
-        android:layout_width="400px"
-        android:layout_height="150px"
-        android:text="BTN PX"
-        android:textSize="20px"
-        android:textColor="#5C9C40"
-        />
 </LinearLayout>
